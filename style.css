@@ -1,0 +1,116 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    box-sizing: border-box;
+    align-items: center;
+    background-image: url(../imgs/uzz.jpg);
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container {
+    align-items: center;
+    display: flex;
+    width: 1440px;
+}
+
+.sign-up-title {
+    width: 525px;
+    height: 131px;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px;
+    /* 110% */
+    letter-spacing: -0.521px;
+}
+
+.sign-up-text {
+    width: 525px;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.sign-up-form-text {
+    color: #fff;
+    text-align: center;
+    padding: 17px 0px;
+    border-radius: 10px;
+    background: #5e54a4;
+    box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+}
+
+input {
+    color: #3d3b48;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.25px;
+    border-radius: 5px;
+    padding: 15px 32px;
+    border: 1px solid #5e54a4;
+    background: #fff;
+}
+
+button {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    /*button uchun*/
+    border-radius: 5px;
+    border: none;
+    padding: 15px 0px;
+    background: #38cc8b;
+    box-shadow: 0px -4px 0px 0px rgba(0, 0, 0, 0.09) inset;
+}
+
+.about {
+    color: #bab7d4;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    /* 236.364% */
+}
+
+.Terms {
+    color: #ff7979;
+    font-family: Poppins;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
